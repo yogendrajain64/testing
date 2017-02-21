@@ -1,0 +1,25 @@
+{
+  "name": "sinontest1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.3.6"
+  },
+  "devDependencies": {
+    "should": "^8.1.1",
+    "chai": "^3.5.0",
+    "sinon": "^1.17.2",
+    "supertest": "^1.1.0"
+  }
+}
